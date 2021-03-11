@@ -1,8 +1,8 @@
--- 1 table: Menampilkan data mahsiswa yang memiliki akun email 'clarke.cloutt@gmail.com' dan diurutkan berdasarkan student_id secara ascending
+-- 1 table: Menampilkan data mahasiswa dan buku dengan mahasiswa berjenis kelamin laki-laki dan diurutkan berdasarkan student_id secara ascending
 SELECT * FROM student 
 WHERE gender = 'M' ORDER BY student_id;
 
--- 2 table: Menampilkan data mahasiswa dan buku dengan mahasiswa berjenis kelamin laki-laki dan diurutkan berdasarkan student_id secara ascending
+-- 2 table: Menampilkan data mahasiswa yang memiliki akun email 'clarke.cloutt@gmail.com' dan diurutkan berdasarkan student_id secara ascending
 SELECT * FROM student, book  
 WHERE email = 'clarke.cloutt@gmail.com' 
 ORDER BY student_id;
