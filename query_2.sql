@@ -1,5 +1,5 @@
 -- 2 tables: Menampilkan buku berjudul Maverick yang direservasi dan diurutkan berdasarkan return_books
-SELECT book.book_id, book.title, book.author, reservation.return_books
+SELECT reservation_id, book.book_id, book.title, book.author, reservation.return_books
 FROM book, reservation
 WHERE book.title = 'Maverick' 
 ORDER BY return_books;
