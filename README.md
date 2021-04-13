@@ -1,2 +1,2 @@
 # Open-Library-Database-SBD
-Open Library Database using Oracle DBMS
+Open Library database using Oracle DBMS
